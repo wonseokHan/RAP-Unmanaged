@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition For Practice'
+define service ZGWFI004_SRV {
+  expose Z_C_BKPF;
+}

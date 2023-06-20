@@ -1,0 +1,13 @@
+unmanaged implementation in class zbp_i_bkpf unique;
+strict ( 1 );
+
+define behavior for Z_I_BKPF alias BKPF
+//late numbering
+lock master
+authorization master ( instance )
+etag master LocalLastChangedAt
+{
+  create;
+  update;
+  delete;
+}
